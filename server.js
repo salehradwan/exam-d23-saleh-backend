@@ -31,7 +31,7 @@ app.get('/cocktail', cocktailController);
 
 app.post('/cocktailDB', cocktailPostController);
 app.get('/cocktailDB', cocktailGetController);
-// app.put('/cocktailDB/:idDrink', cocktailUpdateController);
+app.put('/cocktailDB/:idDrink', cocktailUpdateController);
 app.delete('/cocktailDB/:drink_idx', cocktailDeleteController);
 
 
